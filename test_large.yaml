@@ -1,0 +1,192 @@
+problem:
+  cities:
+  - Oradea
+  - Zerind
+  - Arad
+  - Timisoara
+  - Lugoj
+  - Mehadia
+  - Drobeta
+  - Sibiu
+  - RimnicuVilcea
+  - Craiova
+  - Fagaras
+  - Pitesti
+  - Neamt
+  - Bucharest
+  - Giurgiu
+  - Iasi
+  - Vaslui
+  - Urziceni
+  - Hirsova
+  - Eforie
+  city_Oradea:
+    connects_to:
+      Zerind: 71
+      Sibiu: 151
+  city_Zerind:
+    connects_to:
+      Oradea: 71
+      Arad: 75
+  city_Arad:
+    connects_to:
+      Zerind: 75
+      Sibiu: 140
+      Timisoara: 118
+  city_Timisoara:
+    connects_to:
+      Arad: 118
+      Lugoj: 111
+  city_Lugoj:
+    connects_to:
+      Timisoara: 111
+      Mehadia: 70
+  city_Mehadia:
+    connects_to:
+      Lugoj: 70
+      Drobeta: 75
+  city_Drobeta:
+    connects_to:
+      Mehadia: 75
+      Craiova: 120
+  city_Sibiu:
+    connects_to:
+      Oradea: 151
+      Arad: 140
+      Fagaras: 99
+      RimnicuVilcea: 80
+  city_RimnicuVilcea:
+    connects_to:
+      Sibiu: 80
+      Craiova: 146
+      Pitesti: 97
+  city_Craiova:
+    connects_to:
+      Drobeta: 120
+      RimnicuVilcea: 146
+      Pitesti: 138
+  city_Fagaras:
+    connects_to:
+      Sibiu: 99
+      Bucharest: 211
+  city_Pitesti:
+    connects_to:
+      RimnicuVilcea: 97
+      Craiova: 138
+      Bucharest: 101
+  city_Neamt:
+    connects_to:
+      Iasi: 87
+  city_Bucharest:
+    connects_to:
+      Fagaras: 211
+      Pitesti: 101
+      Giurgiu: 90
+      Urziceni: 85
+  city_Giurgiu:
+    connects_to:
+      Bucharest: 90
+  city_Iasi:
+    connects_to:
+      Neamt: 87
+      Vaslui: 92
+  city_Vaslui:
+    connects_to:
+      Iasi: 92
+      Urziceni: 142
+  city_Urziceni:
+    connects_to:
+      Vaslui: 142
+      Bucharest: 85
+      Hirsova: 98
+  city_Hirsova:
+    connects_to:
+      Urziceni: 98
+      Eforie: 86
+  city_Eforie:
+    connects_to:
+      Hirsova: 86
+
+  city_end: Bucharest
+  city_start: Arad
+
+additional_information:
+  city_Arad:
+    line_of_sight_distance: 366
+    altitude_difference: 0
+
+  city_Bucharest:
+    line_of_sight_distance: 0
+    altitude_difference: 0
+
+  city_Craiova:
+    line_of_sight_distance: 160
+    altitude_difference: 0
+
+  city_Drobeta:
+    line_of_sight_distance: 242
+    altitude_difference: 0
+
+  city_Eforie:
+    line_of_sight_distance: 161
+    altitude_difference: 0
+
+  city_Fagaras:
+    line_of_sight_distance: 176
+    altitude_difference: 0
+
+  city_Giurgiu:
+    line_of_sight_distance: 77
+    altitude_difference: 0
+
+  city_Hirsova:
+    line_of_sight_distance: 151
+    altitude_difference: 0
+
+  city_Iasi:
+    line_of_sight_distance: 226
+    altitude_difference: 0
+
+  city_Lugoj:
+    line_of_sight_distance: 244
+    altitude_difference: 0
+
+  city_Mehadia:
+    line_of_sight_distance: 241
+    altitude_difference: 0
+
+  city_Neamt:
+    line_of_sight_distance: 234
+    altitude_difference: 0
+
+  city_Oradea:
+    line_of_sight_distance: 380
+    altitude_difference: 0
+
+  city_Pitesti:
+    line_of_sight_distance: 100
+    altitude_difference: 0
+
+  city_RimnicuVilcea:
+    line_of_sight_distance: 193
+    altitude_difference: 0
+
+  city_Sibiu:
+    line_of_sight_distance: 253
+    altitude_difference: 0
+
+  city_Timisoara:
+    line_of_sight_distance: 329
+    altitude_difference: 0
+
+  city_Urziceni:
+    line_of_sight_distance: 80
+    altitude_difference: 0
+
+  city_Vaslui:
+    line_of_sight_distance: 199
+    altitude_difference: 0
+
+  city_Zerind:
+    line_of_sight_distance: 374
+    altitude_difference: 0
