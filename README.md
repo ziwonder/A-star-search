@@ -21,7 +21,7 @@ The implementation is designed to be **efficient**, solving problems with up to 
 ## Usage  
 Execute the script with a YAML file containing the problem description:
 ```bash
-python a_star.py problem.yaml
+python a_star.py <problem_file>.yaml
 ```
 ### Prerequisites  
 Ensure you have **Python 3** installed along with the required libraries:  
