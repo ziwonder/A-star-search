@@ -1,7 +1,7 @@
 # A* Search Algorithm for Route Planning  
 
 ## Overview  
-This project implements the **A* search algorithm** in the **graph-search** variant to solve route-finding problems. The goal is to develop a **Python program** that reads problem descriptions from a YAML file, applies the A* algorithm, and outputs the solution in three YAML files, including cost, path, and expanded nodes.  
+This university project implements the **A* search algorithm** in the **graph-search** variant to solve route-finding problems. The goal is to develop a **Python program** that reads problem descriptions from a YAML file, applies the A* algorithm, and outputs the solution in three YAML files, including cost, path, and expanded nodes.  
 
 The implementation is designed to be **efficient**, solving problems with up to **10,000 locations** within **one minute**. Additionally, different heuristic functions are tested to improve search performance.  
 
@@ -27,3 +27,6 @@ python a_star.py <problem_file>.yaml
 Ensure you have **Python 3** installed along with the required libraries:  
 ```bash
 pip install numpy pyyaml argparse
+```
+# Remark 
+Problem files test.yaml and test_large.yaml were provided by the university course. 
